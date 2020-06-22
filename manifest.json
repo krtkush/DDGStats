@@ -1,0 +1,33 @@
+{
+
+    "manifest_version": 2,
+    "description": "Add a google search button in Duckduckgo search result page and maintain stats of number of time you use Google over DDG",
+    "name": "DDG Stats",
+    "version": "1.0",
+    "author": "Kartikey Kushwaha",
+  
+    "permissions": ["storage", "webNavigation"],
+
+    "icons": {
+      "32": "icons/icon_32.png"
+    },
+
+    "browser_action": {
+      "default_title": "DDG Stats",
+      "default_popup": "popup.html",
+      "default_icon": {
+        "32": "icons/icon_32.png"
+      }
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.duckduckgo.com/*"],
+        "js": ["addButton.js"]
+      }
+    ],
+
+    "background": {
+      "scripts": [ "pageMonitor.js" ]
+    }  
+}
