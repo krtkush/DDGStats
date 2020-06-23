@@ -9,7 +9,8 @@
     "permissions": ["storage", "webNavigation"],
 
     "icons": {
-      "32": "icons/icon_32.png"
+      "48": "icons/icon_main.svg",
+      "96": "icons/icon_main.svg"
     },
 
     "browser_action": {
