@@ -47,6 +47,6 @@ storedStats.then(results => {
     var percentageStat = (ddgSearchCount/(ddgSearchCount + googleBangSearchCount)) * 100;
 
     const percentageStatItem = document.createTextNode("h6");
-    percentageStatItem.textContent = "Your DDG usage is " + percentageStat + "%";
+    percentageStatItem.textContent = "Your DDG usage is " + percentageStat.toFixed(2) + "%";
     percentageStatsDiv.appendChild(percentageStatItem);
 });
