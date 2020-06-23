@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/krtkush/LinearTimer/master/lineartimer/src/main/res/drawable/high_res_icon.png" height="200" width="200"/> 
+<img src="https://raw.githubusercontent.com/krtkush/DDGStats/f76c682dbef5a3029e6d464920e1b4099e0e4ae3/icons/icon_main.svg" height="200" width="200"/> 
 
 # DDG Stats
 
@@ -17,7 +17,9 @@ DDG Stats stores all the data on your device only and does not transmit it to an
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/krtkush/LinearTimer/master/Screenshots/demo.gif" width="200" height="350" />
+<img src="https://raw.githubusercontent.com/krtkush/DDGStats/master/screenshots/Screenshot%202020-06-23%20at%2012.30.59%20PM.png" width="400" height="200" />
+
+<img src="https://raw.githubusercontent.com/krtkush/DDGStats/master/screenshots/Screenshot%202020-06-23%20at%2012.32.48%20PM.png" width="400" height="200" />
 
 ## Versioning
 
