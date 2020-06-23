@@ -1,34 +1,34 @@
 {
-
-    "manifest_version": 2,
-    "description": "Add a google search button in Duckduckgo search result page and maintain stats of number of time you use Google over DDG",
-    "name": "DDG Stats",
-    "version": "1.0",
-    "author": "Kartikey Kushwaha",
+  "manifest_version": 2,
+  "description": "DDG Stats is a Firefox web extension that adds a Google bang button right next to the Duckduckgo search bar. It also enables the user to view their DDG vs Google bang search stats. With the stats feature you can now be sure you're statistically correct about your DDG usage in your next DDG vs Google argument on Hacker News or Reddit!",
+  "name": "DDG Stats",
+  "version": "1.0.0",
+  "author": "Kartikey Kushwaha",
   
-    "permissions": ["storage", "webNavigation"],
+  "permissions": ["storage", "webNavigation"],
 
-    "icons": {
+  "icons": {
+    "48": "icons/icon_main.svg",
+    "96": "icons/icon_main.svg"
+  },
+
+  "browser_action": {
+    "default_title": "DDG Stats",
+    "default_popup": "popup.html",
+    "default_icon": {
       "48": "icons/icon_main.svg",
       "96": "icons/icon_main.svg"
-    },
-
-    "browser_action": {
-      "default_title": "DDG Stats",
-      "default_popup": "popup.html",
-      "default_icon": {
-        "32": "icons/icon_32.png"
-      }
-    },
+    }
+  },
   
-    "content_scripts": [
-      {
-        "matches": ["*://*.duckduckgo.com/*"],
-        "js": ["addButton.js"]
-      }
-    ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.duckduckgo.com/*"],
+      "js": ["addButton.js"]
+    }
+  ],
 
-    "background": {
-      "scripts": [ "pageMonitor.js" ]
-    }  
+  "background": {
+    "scripts": [ "pageMonitor.js" ]
+  }  
 }
