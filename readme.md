@@ -13,7 +13,7 @@ DDG Stats asks for following permissions -
 1. Storage: To store your DDG search and Google bang (!g) search count.
 2. webNavigation: To identify your search type and then update the count.
 
-DDG Stats stores all the data on your device only and does not transmit it to any remote computer/ server.
+DDG Stats stores all the data on your device only and does not transmit it to any remote computer.
 
 ## Screenshots
 
