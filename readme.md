@@ -19,7 +19,7 @@ DDG Stats stores all the data on your device only and does not transmit it to an
 
 <img src="https://raw.githubusercontent.com/krtkush/DDGStats/master/screenshots/Screenshot%202020-06-23%20at%2012.30.59%20PM.png" width="1000" height="125" />
 
-<img src="https://raw.githubusercontent.com/krtkush/DDGStats/master/screenshots/Screenshot%202020-06-23%20at%2012.32.48%20PM.png" width="450" height="165" />
+<img src="https://raw.githubusercontent.com/krtkush/DDGStats/master/screenshots/Screenshot%202020-06-23%20at%2012.32.48%20PM.png" width="400" height="165" />
 
 ## Versioning
 
