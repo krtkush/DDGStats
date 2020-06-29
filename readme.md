@@ -6,6 +6,8 @@ DDG Stats is a Firefox web extension that adds a Google bang button right next t
 
 With the stats feature you can now be sure you're statistically correct about your DDG usage in your next DDG vs Google argument on Hacker News or Reddit!
 
+Download - https://addons.mozilla.org/en-US/firefox/addon/ddg-stats/
+
 ## Permissions, Data collection and Privacy
 
 DDG Stats asks for following permissions - 
