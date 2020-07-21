@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "description": "DDG Stats is a Firefox web extension that adds a Google bang button right next to the Duckduckgo search bar. It also enables the user to view their DDG vs Google bang search stats. With the stats feature you can now be sure you're statistically correct about your DDG usage in your next DDG vs Google argument on Hacker News or Reddit!",
   "name": "DDG Stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kartikey Kushwaha",
   
   "permissions": ["storage", "webNavigation"],
